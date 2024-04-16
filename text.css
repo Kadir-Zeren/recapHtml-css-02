@@ -1,0 +1,33 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.text-style {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  font-size: 12px;
+  /* font-weight: 100; */
+  font-weight: lighter;
+  font-weight: bolder;
+  font-weight: 500;
+
+  font-style: italic;
+
+  font-variant: small-caps;
+
+  text-align: justify;
+}
+
+#my-body .text-style span {
+  color: red;
+}
+
+.decoration {
+  color: green;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: none;
+}
