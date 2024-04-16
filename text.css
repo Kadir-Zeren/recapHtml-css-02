@@ -31,3 +31,40 @@ body {
   text-decoration: line-through;
   text-decoration: none;
 }
+
+.transformation {
+  color: blueviolet;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: none;
+}
+
+.spacing {
+  color: yellowgreen;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  line-height: 1.4;
+}
+
+.indent {
+  text-indent: 30px;
+}
+
+.direct {
+  text-align: right;
+  direction: rtl;
+}
+
+.text-shadow {
+  text-shadow: 10px -15px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.box-shadow {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(205, 5, 5, 5);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
